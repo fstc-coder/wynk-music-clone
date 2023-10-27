@@ -1,0 +1,1065 @@
+@media (max-width: 1450px){
+  nav .nav-bar .right-section .subcriptions-text .subscription-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 17px;
+    width: 14px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    
+    font-size: 5px;
+    color: #fff;
+    padding: 3px;
+    margin-right: 10px;
+  }
+
+  nav .nav-bar .right-section .subcriptions-text .manage {
+  
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    
+  }
+
+  nav .nav-bar .right-section .stop-line {
+    background: rgba(128,128,128,0.6);
+    height: 27px;
+    width: 1.5px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  nav .nav-bar .right-section .user-info-box .user-icon {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  nav .nav-bar .right-section .user-info-box .login {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  nav .nav-bar .right-section  .menu{
+    color: #fff;
+    font-size: 22px;
+    margin-left: 13px;
+  }
+
+  nav .nav-bar .middle-section .search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 33px;
+    border-radius: 20px;
+    color: gray;
+    border: 0.8px solid rgba(225,225,225,0.3);
+    background:rgba(28, 28, 28, 1);
+    box-shadow: inset 1px 1px 25px 1px rgba(255, 255, 255, 0.1);
+    
+    padding: 4px 5px 4px 20px;
+    margin-right: 10px;
+    
+  }
+}
+
+@media(min-width: 0px) and (max-width: 1300px){
+  main .contensts {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 200px;
+  }
+  main .new_contents {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    height: 300px;
+  }
+  
+  footer {
+    position: relative;
+    
+    margin-top: 16px;
+    border-bottom: 0.8px solid #818c94;
+    
+    height: auto;
+    z-index: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+}
+
+@media(max-width: 1285px){
+  nav .nav-bar .right-section .subcriptions-text .manage {
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    flex: 1;
+}
+
+header .menu-list .list-name p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px 0px 8px;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+ }
+
+}
+
+@media(max-width: 1210px) {
+  nav .nav-bar .right-section .subcriptions-text .manage {
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    flex: 1;
+}
+
+nav .nav-bar .middle-section .search .bi {
+  position: absolute;
+  font-size:14px;
+  padding: 3px 0px 0px 10px;
+  top: 3px;
+  left: 0px;
+}
+
+nav .nav-bar .middle-section .search input {
+  position: absolute;
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+  color:#fff;
+  font-size: 14px;
+  font-weight: 300;
+  left: 25px;
+  width: 90%;
+  
+}
+
+main .Popular_song .pop_song{
+  width: 100%;
+  height: 183px;
+  margin-top: 15px;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+main .Popular_song .pop_song li {
+  min-width: 149px;
+  height: 183px;
+  list-style-type: none;
+  margin-right: 20px;
+  transition: .3s linear;
+}
+
+main .Popular_song .pop_song li .img_play {
+  position: relative;
+  width: 149px;
+  height: 149px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .Popular_song .pop_song li h5 {
+  padding: 5px 0px 0px 5px;
+  line-height: 15px;
+  font-size: 11px;
+  
+  font-weight: 400;
+}
+
+main .Popular_song .pop_song li h5 .subtitle {
+  color: #9197a4;
+  font-size: 10px
+  
+}
+
+main .new_contents {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  height: 280px;
+}
+
+main .new_releases .new_songs{
+  width: 100%;
+  height: 240px;
+  margin-top: 15px;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+main .new_releases .new_songs li {
+  min-width: 180px;
+  height: 280px;
+  list-style-type: none;
+    margin-right: 25px;  
+  transition: .3s linear;
+}
+
+main .new_releases .new_songs li .new_s_play {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+}
+
+@media(max-width: 1195px){
+
+  header .menu-list {
+    position: absolute;
+   right: 0;
+   left: 0;
+   top: 67px;
+   display: flex;
+   height: 72px; 
+   /* background-color: red; */
+   width: auto;
+   color: #919191;
+   padding-top: 16px;
+   padding-bottom: 16px;
+   padding-left: 10px;
+   margin-top: 20px;
+   padding-right: 10px;
+   font-weight: 350;
+   z-index: 10;
+  }
+
+  nav .nav-bar .middle-section .search input {
+    position: absolute;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    color:#fff;
+    font-size: 12px;
+    font-weight: 300;
+    left: 25px;
+    width: 90%;
+    
+  }
+  
+  nav .nav-bar .right-section .subcriptions-text .manage {
+  
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    
+  }
+
+  nav .nav-bar .right-section .stop-line {
+    background: rgba(128,128,128,0.6);
+    height: 24px;
+    width: 1.5px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  nav .nav-bar .right-section .user-info-box .user-icon {
+    color: #fff;
+    font-size: 17px;
+    margin-right: 10px;
+  }
+
+  nav .nav-bar .right-section .user-info-box .login {
+    color: #fff;
+    font-weight: 300;
+    font-size: 11px;
+  }
+
+  nav .nav-bar .right-section  .menu{
+    color: #fff;
+    font-size: 19px;
+    margin-left: 13px;
+  }
+  main .Popular_song .pop_song{
+    width: 100%;
+    height: 170px;
+    margin-top: 15px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  main .Popular_song .pop_song li {
+    min-width: 136px;
+    height: 170px;
+    list-style-type: none;
+    margin-right: 20px;
+    transition: .3s linear;
+  }
+  
+  main .Popular_song .pop_song li .img_play {
+    position: relative;
+    width: 136px;
+    height: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main .Popular_song .pop_song li h5 {
+    padding: 5px 0px 0px 5px;
+    line-height: 15px;
+    font-size: 9px;
+    
+    font-weight: 400;
+  }
+  
+  main .Popular_song .pop_song li h5 .subtitle {
+    color: #9197a4;
+    font-size: 8px
+    
+  }
+  
+  main .new_contents {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    height: 265px;
+  }
+  
+  main .new_releases .new_songs{
+    width: 100%;
+    height: 228px;
+    margin-top: 15px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  main .new_releases .new_songs li {
+    min-width: 180px;
+    height: 265px;
+    list-style-type: none;
+      margin-right: 25px;  
+    transition: .3s linear;
+  }
+  
+  main .new_releases .new_songs li .new_s_play {
+    position: relative;
+    width: 165px;
+    height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .new_releases .new_songs li h5 {
+    margin-top: 10px;
+    padding: 5px 0px 0px 5px;
+    line-height: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  footer  .quote-container img{
+    height: 40;
+    width: 71;
+  }
+  
+
+  footer .about-text .P-box h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  footer .about-text .P-box p {
+    font-size: 12px;
+    color: rgb(216, 215, 215);
+  }
+
+  footer .aboutsecond .col h3 {
+    font-size: 12px;
+  }
+  
+  footer .aboutsecond .col p {
+    font-size: 10px;
+    color: #818c94;
+  }
+
+}
+
+@media (max-width: 1184px){
+  nav .nav-bar .right-section .stop-line {
+    background: rgba(128,128,128,0.6);
+    height: 38px;
+    width: 1.5px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: none;
+  }
+  
+  nav .nav-bar .right-section .user-info-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    display: none;
+  }
+  nav .nav-bar .right-section .user-info-box .user-icon {
+    color: #fff;
+    font-size: 26px;
+    margin-right: 10px;
+    display: none;
+  }
+  
+  nav .nav-bar .right-section .user-info-box .login {
+    color: #fff;
+    font-weight: 300;
+    display: none;
+  }
+  
+  nav .nav-bar .right-section .subcriptions-text .subscription-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 18px;
+    width: 15.75px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    
+    font-size: 7px;
+    color: #fff;
+    padding: 3px;
+    margin-right: 10px;
+  }
+  
+  nav .nav-bar .right-section .subcriptions-text .subscription-box .line {
+    height: 0.5px;
+    width: 6px;
+    position: absolute;
+    bottom: 3px;
+    background-color: white;
+  }
+  
+  nav .nav-bar .right-section .subcriptions-text .manage {
+    
+    color: white;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 16px;
+    
+  }
+
+}
+
+@media (min-width: 640px) and (max-width: 973px){
+  nav .nav-bar .right-section .subcriptions-text .manage {
+    
+    color: white;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 11px;
+    
+  }
+}
+
+
+
+
+
+@media (max-width: 850px){
+
+  main .master_paly .vol-others span {
+    font-size: 1opx;
+  }
+
+  nav .nav-bar .left-section .logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  nav .nav-bar .left-section a span {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    
+  }
+
+  nav .nav-bar{
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 72px;
+    padding: 4px 10px 4px 10px;
+    background-color: rgb(28, 27, 27);
+    z-index: 2000;
+    
+  }
+
+  main .master_paly .vol-others .vol .bi {
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+    top: -17px;
+    left: -33px;
+  }
+  main .master_paly .vol-others span {
+    font-size: 14px;
+  }
+
+  main .master_paly h5 {
+ 
+    font-size: 12px;
+   
+    color: #fff;
+    line-height: 20px;
+    font-weight: 350;
+  }
+
+  main .master_paly h5 .subtitle {
+    font-size: 10px;
+    color: rgb(188,188,188);
+  }
+
+  main .master_paly .icon {
+    font-size: 16px;
+    color: #fff;
+    margin: 0px 20px 0px 40px;
+  }
+  
+  main .ads-music .banner img {
+    border-radius: 20px;
+    z-index: 1;
+    width: 650px;
+    height: auto;
+    
+    display: block;
+  }
+
+  main .ads-music .arrow-icon-left {
+    top: 100px;
+    left: 100px;
+  }
+  
+  main .ads-music .arrow-icon-right {
+    right: 100px;
+    top: 100px;
+  }
+  
+  footer .contact  {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  footer .contact .contact-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  footer .contact .contact-text .text {
+    font-size: 12px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  footer .contact .logo .logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 16px;
+  }
+
+  header .menu-list {
+    position: absolute;
+   right: 0;
+   left: 0;
+   top: 67px;
+   display: flex;
+   height: 72px; 
+   /* background-color: red; */
+   width: auto;
+   color: #919191;
+   padding-top: 16px;
+   padding-bottom: 16px;
+   padding-left: 0px;
+   margin-top: 20px;
+   padding-left: 0px;
+   font-weight: 350;
+   
+   z-index: 10;
+  }
+
+  header {
+    z-index: 2000;
+    margin-bottom: 40px;
+  }
+
+  header .menu-list .list-name p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 2px 0px 2px;
+    cursor: pointer;
+    font-size: 12px;
+   }
+
+   main .new_contents {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    height: 240px;
+  }
+  
+  main .new_releases .new_songs{
+    width: 100%;
+    height: 208px;
+    margin-top: 15px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  main .new_releases .new_songs li {
+    min-width: 150px;
+    height: 240px;
+    list-style-type: none;
+      margin-right: 25px;  
+    transition: .3s linear;
+  }
+  
+  main .new_releases .new_songs li .new_s_play {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .new_releases .new_songs li h5 {
+    margin-top: 10px;
+    padding: 5px 0px 0px 5px;
+    line-height: 15px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+
+}
+
+@media (max-width: 780px){
+  nav .nav-bar .right-section .subcriptions-text  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s linear;
+    display: none;
+  }
+}
+
+@media(max-width: 700px){
+  header .menu-list .list-name p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px 0px 16px;
+    cursor: pointer;
+    display: flex;
+    font-size: 10px;
+   }
+  
+}
+
+@media (max-width: 640px){
+  
+  nav .nav-bar .right-section  .menu{
+    color: #fff;
+    font-size: 26px;
+    margin-left: 5px;
+  }
+  nav .nav-bar .middle-section{
+    display: flex;
+    flex: 1;
+    margin-right: 0px;
+  }
+}
+
+@media(max-width: 545px){
+  header .menu-list .remove{
+    display: none;
+  }
+
+  header .menu-list .list-name p{
+    font-size: 14px;
+  }
+
+  main .master_paly .center .icon{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 10px;
+  color: #fff;
+  margin: 0px 20px 0px 80px;
+    flex-wrap: nowrap;
+  }
+
+  main .master_paly .vol-others  span{
+    font-size: 10px;
+  }
+
+}
+
+@media(max-width: 500px){
+  footer .contact  {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  footer .contact .contact-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  footer .contact .contact-text .text {
+    font-size: 9px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  footer .contact .logo .logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 13px;
+  }
+}
+
+@media(max-width: 370px){
+  footer .contact  {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  footer .contact .contact-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  footer .contact .contact-text .text {
+    font-size: 5px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  footer .contact .logo .logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 8px;
+  }
+
+  footer  .quote-container img {
+    width: 30px;
+    height: 30px;
+  }
+
+  footer .about-text{
+    margin-top: 50px;
+    /* border: 0.8px solid #fff; */
+    width: 100%;
+  }
+}
+
+@media(max-width: 522px){
+  main .master_paly .row .col-4 .col-9 {
+    padding: 0;
+   width: auto;
+   display: none;
+  }
+  main .master_paly .vol-others {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  }
+  main .master_paly .center .icon{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 15px;
+  color: #fff;
+  margin: 0px 20px 0px 80px;
+    flex-wrap: nowrap;
+  }
+}
+@media(max-width: 300px){
+  main .master_paly .row .col-4 .col-9 {
+    padding: 0;
+   width: auto;
+   display: none;
+  }
+  main .master_paly .vol-others {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  }
+  main .master_paly .center .icon{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 15px;
+  color: #fff;
+  margin: 0px 20px 0px 80px;
+    flex-wrap: nowrap;
+  }
+
+  main .master_paly .icon .bi:nth-child(2) {
+     border: 1px solid rgba(105,105,170,.2); 
+    border-radius: 50%;
+    padding: 1px 3px 0px 6px;
+    margin: 0px 5px;
+    transition: .3s linear;
+    align-items: center;
+  }
+
+  nav .nav-bar{
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 72px;
+    padding: 4px 8px 4px 8px;
+    background-color: rgb(28, 27, 27);
+    z-index: 2000;
+    
+  }
+
+  nav .nav-bar .left-section .logo {
+    border-radius: 50%;
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+  }
+  nav .nav-bar .left-section a span {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    line-height: 28px;
+    font-weight: 300;
+    
+  }
+
+
+
+   header .menu-list .list-name p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px 0px 16px;
+    font-size: 9px;
+    cursor: pointer;
+    
+   }
+
+   main .ads-music .banner img {
+    border-radius: 20px;
+    z-index: 1;
+    width: 400px;
+    height: 200px;
+    display: block;
+  }
+
+  main .master_paly .row .col-4 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 40px;
+  }
+  
+  main .master_paly {
+    position: fixed;
+    bottom:0px;
+    left: 0;
+    right:0;
+    height: 72px;
+    display: flex;
+    align-items: center;
+  
+    padding: 5px 8px;
+    background-color: rgb(33, 37, 45);
+    z-index: 111;
+  }
+
+  main .new_contents {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    height: 200px;
+  }
+  
+  main .new_releases .new_songs{
+    width: 100%;
+    height: 160px;
+    margin-top: 15px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  main .new_releases .new_songs li {
+    min-width: 110px;
+    height: 200px;
+    list-style-type: none;
+      margin-right: 8px;  
+    transition: .3s linear;
+  }
+  
+  main .new_releases .new_songs li .new_s_play {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .new_releases .new_songs li h5 {
+    margin-top: 10px;
+    padding: 5px 0px 0px 5px;
+    line-height: 15px;
+    font-size: 9px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  main .ads-music .banner img {
+    border-radius: 20px;
+    z-index: 1;
+    width: 400px;
+    height: auto;
+    
+    display: block;
+  }
+
+  main .Popular_song .pop_song{
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  main .Popular_song .pop_song li {
+    min-width: 80px;
+    height: 100px;
+    list-style-type: none;
+    margin-right: 10px;
+    transition: .3s linear;
+  }
+  
+  main .Popular_song .pop_song li .img_play {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main .Popular_song .pop_song li h5 {
+    padding: 5px 0px 0px 5px;
+    line-height: 15px;
+    font-size: 7px;
+    
+    font-weight: 400;
+  }
+  
+  main .Popular_song .pop_song li h5 .subtitle {
+    color: #9197a4;
+    font-size: 6px
+    
+  }
+
+  main .Popular_song .h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 300;
+  }
+  
+  main .new_releases .h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 300;
+  }
+
+  main .ads-music .arrow-icon-left {
+    top: 50px;
+    left: 20px;
+  }
+  
+  main .ads-music .arrow-icon-right {
+    right: 20px;
+    top: 50px;
+  }
+}

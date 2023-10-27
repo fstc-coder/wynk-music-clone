@@ -1,0 +1,125 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  color: #fff;
+  background: rgb(12,15,18);
+  height: auto;
+  padding-bottom: 120px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 150px;
+}
+
+footer {
+  position: relative;
+  
+  margin-top: 16px;
+  border-bottom: 0.8px solid #818c94;
+  
+  height: auto;
+  z-index: 1;
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+}
+footer .about{
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  border: 0.8px solid rgb(61,70,77);
+  border-radius: 10px;
+  margin-bottom: 50px;
+
+}
+
+footer  .quote-container {
+  position: absolute;
+  right: 18px;
+  top: 1;
+}
+
+footer .about-text{
+  margin-top: 50px;
+  /* border: 0.8px solid #fff; */
+  width: 90%;
+}
+
+footer .about-text .P-box{
+  margin-bottom: 24px;
+}
+
+footer .about-text .P-box h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+footer .about-text .P-box p {
+  font-size: 14px;
+  color: rgb(216, 215, 215);
+}
+
+footer .aboutsecond {
+  border-bottom: 0.8px solid #818c94;
+
+}
+
+footer .aboutsecond .col {
+  margin: 24px 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  line-height: 25px;
+}
+
+footer .aboutsecond .col h3 {
+  font-size: 14px;
+}
+
+footer .aboutsecond .col p {
+  font-size: 12px;
+  color: #818c94;
+}
+
+footer .contact  {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  
+}
+
+footer .contact .contact-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .contact .contact-text .text {
+  font-size: 14px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+footer .contact .contact-text .text span {
+  margin-left: 5px;
+  color: #818c94;
+}
+
+footer .contact .logo {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #FFf; */
+}
+
+footer .contact .logo .logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  margin-right: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+}

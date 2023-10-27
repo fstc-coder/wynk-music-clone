@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+  <title>Wynk music Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
+ <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+ 
+  <header>
+  
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid nav-bar">
+    
+          <div class="left-section col-6">
+            <a href="#" class="navbar-brand">
+              <img src="images/wynk logo.png" alt="logo" width="48" height="48" class="d-inline-block  align-text-top logo ">
+              <span>Wynk Music</span>
+            </a>
+          </div>
+    
+          <div class="middle-section col-3">
+            <div class="search">
+              <i class="bi bi-search"></i>
+              <input  type="text"  placeholder="Search Songs ">
+            </div>
+          </div>
+          
+          <div class="right-section col-3">
+    
+            <div class="subcriptions-text">
+              <div class="subscription-box">
+                <span class="rs-icon "> <i class="bi bi-currency-rupee " ></i></span>
+                <div class="line "></div>
+              </div>
+    
+              <span class="manage">Manage Subscription</span>
+            </div>
+    
+            <div class="stop-line"></div>
+    
+            <div class="user-info-box">
+              <span class="user-icon"><i class="bi bi-person"></i></span>
+    
+              <span class="login">Login</span>
+              
+            </div>
+            <div class="menu ">
+              <i class="bi bi-list"></i>
+            </div>
+           
+            </div>
+    
+    
+    
+        </div>
+    
+      </nav>
+   
+     <!-- //nav bar-->
+
+  <div class="menu-list   ">
+    <div class="list-name active">
+      <P>All</P>
+    </div>
+    <div class="list-name remove">
+      <P>Trending Now</P>
+    </div>
+    <div class="list-name remove ">
+      <P>Old Songs</P></div>
+    <div class="list-name remove">
+      <P>New Songs</P>
+    </div>
+    <div class="list-name remove">
+      <P>Moods & Genre</P>
+    </div>
+    <div class="list-name remove">
+      <P>Top Albums</P>
+    </div>
+    <div class="list-name remove">
+      <P>Top Artists</P>
+    </div>
+    <div class="list-name ">
+      <P>Top Playlists</P>
+    </div>
+    <div class="list-name ">
+      <P>Pod Cast</P>
+    </div>
+  
+   </div>
+
+   
+
+</header>
+
+<main>
+
+  <div class="ads-music">
+    <div class="banner_container">
+      <ul class="banner_list">
+        <li class="banner">
+          <img src="images/BANNER.1.webp" alt="banner">
+        </li>
+        <li class="banner">
+          <img src="images/banner-2.webp" alt="banner">
+        </li>
+        <li class="banner">
+          <img src="images/BANNER-3.webp" alt="banner">
+        </li>
+        <li class="banner">
+          <img src="images/BANNER-4.webp" alt="banner">
+        </li>
+        <li class="banner">
+          <img src="images/banner-5.webp" alt="banner">
+        </li>
+        <li class="banner">
+          <img src="images/BANNER-6.webp" alt="banner">
+        </li>
+        <li class="banner">
+          <img src="images/BANNER-7.webp" alt="banner">
+        </li>
+        <li class="banner">
+          <img src="images/BANNER-8.webp" alt="banner">
+        </li>
+        <li class="banner">
+          <img src="images/banner-9.webp" alt="banner">
+        </li>
+        <li class="banner">
+          <img src="images/BANNER-11.webp" alt="banner">
+        </li>
+        <li class="banner">
+          <img src="images/BANNER-12.webp" alt="banner">
+        </li>
+        <li class="banner">
+          <img src="images/BANNER-13.webp" alt="banner">
+        </li>
+        
+      </ul>
+    </div>
+
+ 
+  
+    <div id="left_scroll" class="arrow-icon-left">
+      <i  class="bi bi-chevron-left"></i>
+      
+    </div>
+
+    <div id="right_scroll" class="arrow-icon-right">
+      
+      <i  class="bi bi-chevron-right"></i>
+    </div>
+
+  </div>
+
+<div class="contensts">
+  <div class="Popular_song">
+    <div class="h4">
+      <h4>Recently Played</h4>
+      <div class="btn-s">
+        <i id="left_scrolls"  class="bi bi-arrow-left-short"></i>
+            <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+      </div>
+    </div>
+    <div class="pop_song">
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="3"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="4"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="5"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="6"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="7"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="8"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="9"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="10"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="11"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="12"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="13"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="14"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+      <li class="songItem">
+        <div class="img_play">
+          <img src="song_cover_img/1.jpg" alt="alan">
+          <i class="bi playlistPlay bi-play-circle-fill" id="15"></i>
+        </div>
+        <h5>On My Way <br>
+          <div class="subtitle">Alan Walker</div>
+        </h5>
+
+      </li>
+    </div>
+  </div>
+</div>
+
+<div class="new_contents">
+  <div class="new_releases">
+    <div class="h4">
+      <h4>New Releases</h4>
+      <div class="btn-s">
+        <i id="left_scroll_new"  class="bi bi-arrow-left-short"></i>
+            <i id="right_scroll_new" class="bi bi-arrow-right-short"></i>
+      </div>
+    </div>
+    <div class="new_songs">
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new1.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>New Song Mix 
+          
+        </h5>
+      </li>
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new8.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Speak Now
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new2.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>New Hindi Songs
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new3.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>New English Songs
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new4.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>New Life
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new5.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Scarlet
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new6.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Ganapath
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new7.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Guts
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new 8.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Tegas
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new9.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Dhak Dhak 
+        </h5>
+      </li>
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new10.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Anakh Micholi
+        </h5>
+      </li>
+    </div>
+
+  </div>
+</div>
+
+<div class="new_contents">
+  <div class="new_releases">
+    <div class="h4">
+      <h4>Top Charts</h4>
+      <div class="btn-s">
+        <i id="left_scroll_top"  class="bi bi-arrow-left-short"></i>
+            <i id="right_scroll_top" class="bi bi-arrow-right-short"></i>
+      </div>
+    </div>
+    <div class="new_songs top_songs">
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/top1.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Weekly Top
+          
+        </h5>
+      </li>
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/top2.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Wynk Top 100
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/top3.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Romance
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/top4.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Weekly Top
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/top5.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Social Media
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/top6.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Reels
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/top7.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Pop Top
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/top8.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Romance
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/top9.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Tegas
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/top10.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Dance 
+        </h5>
+      </li>
+     
+    </div>
+
+  </div>
+</div>
+
+<div class="new_contents">
+  <div class="new_releases">
+    <div class="h4">
+      <h4>Indie Music</h4>
+      <div class="btn-s">
+        <i id="left_scroll_indi"  class="bi bi-arrow-left-short"></i>
+            <i id="right_scroll_indi" class="bi bi-arrow-right-short"></i>
+      </div>
+    </div>
+    <div class="new_songs indi_songs">
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/indi1.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Latest Indie
+          
+        </h5>
+      </li>
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/indi2.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>INDIE English
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/in3.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>New Age Pop
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/in4.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>North East 
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/in5.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Beyond Bollywood
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/in6.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Hip Hop
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/in7.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Soul indie
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/in8.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Women Indie
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/in9.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Indie Chill
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/in10.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Indie Rock
+        </h5>
+      </li>
+     
+    </div>
+
+  </div>
+</div>
+
+<div class="new_contents">
+  <div class="new_releases">
+    <div class="h4">
+      <h4>Top Artists</h4>
+      <div class="btn-s">
+        <i id="left_scroll_arits"  class="bi bi-arrow-left-short"></i>
+            <i id="right_scroll_artists" class="bi bi-arrow-right-short"></i>
+      </div>
+    </div>
+    <div class="new_songs top_artists">
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="singers img/A. R. Rahman.jpg" alt="new" title="A. R. Rahman" class="rounded-circle">
+          
+        </div>
+        <h5 class="text-center">A. R. Rahman
+          
+        </h5>
+      </li>
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="singers img/alaka.jpg" alt="new" title="Alka Yagnik" class="rounded-circle">
+          
+        </div>
+        <h5 class="text-center">Alka Yagnik
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="singers img/alan.jpg" alt="new" title="Alan Walker" class="rounded-circle">
+          
+        </div>
+        <h5 class="text-center">Alan Walker
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="singers img/ariana.jpg" alt="new" title="Ariana Grande" class="rounded-circle">
+          
+        </div>
+        <h5 class="text-center">Ariana Grande 
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="singers img/Arijit_Singh.jpg" alt="new" title="Arijit Singh" class="rounded-circle">
+          
+        </div>
+        <h5 class="text-center">Arijit Singh
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="singers img/Armaan Malik.webp" alt="new" title="Armaan Malik" class="rounded-circle">
+          
+        </div>
+        <h5 class="text-center">Armaan Malik
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="singers img/atif-aslam.jpg" alt="new" title="Atif Aslam" class="rounded-circle">
+          
+        </div>
+        <h5 class="text-center">Atif Aslam
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="singers img/justin.jpg" alt="new" title="Justin Bieber" class="rounded-circle">
+          
+        </div>
+        <h5 class="text-center">Justin Bieber
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="singers img/Palak-Muchhal.jpg" alt="new" title="Palak Muchhal" class="rounded-circle">
+          
+        </div>
+        <h5 class="text-center">Palak Muchhal
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="singers img/Sonu Nigam.jpg" alt="new" title="Sonu Nigam" class="rounded-circle">
+          
+        </div>
+        <h5 class="text-center">Sonu Nigam
+        </h5>
+      </li>
+     
+    </div>
+
+  </div>
+</div>
+
+<div class="new_contents">
+  <div class="new_releases">
+    <div class="h4">
+      <h4>Trending English</h4>
+      <div class="btn-s">
+        <i id="left_scroll_tren"  class="bi bi-arrow-left-short"></i>
+            <i id="right_scroll_tren" class="bi bi-arrow-right-short"></i>
+      </div>
+    </div>
+    <div class="new_songs tren_songs">
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new3.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Weekly Top
+          
+        </h5>
+      </li>
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/new8.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Wynk Top 100
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/tr-alan.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Dreamer
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/tr2.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Weekly Top
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/tr3.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Social Media
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/tr4.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Reels
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/tr6.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Pop Top
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/tr5.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Romance
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/tr8.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Tegas
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/tr9.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Dance 
+        </h5>
+      </li>
+     
+    </div>
+
+  </div>
+</div>
+
+<div class="new_contents">
+  <div class="new_releases">
+    <div class="h4">
+      <h4>Discover New Music</h4>
+      
+    </div>
+    <div class="new_songs top_songs">
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/dis1.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>New In Pop
+          
+        </h5>
+      </li>
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/dis2.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>New In EDM
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/dis3.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Hip Pop
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/dis4.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>K-Pop
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/dis5.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Latest Love Hits
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/dis6.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>New In Rock
+        </h5>
+      </li>
+      
+     
+    </div>
+
+  </div>
+</div>
+
+<div class="new_contents">
+  <div class="new_releases">
+    <div class="h4">
+      <h4>Your Library</h4>
+      
+    </div>
+    <div class="new_songs top_songs">
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/liked-songs.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Liked Songs
+          
+        </h5>
+      </li>
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/mostp.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Most Played Songs
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/downloads.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Downloads
+        </h5>
+      </li>
+       <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/recently-played.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Recently Played
+        </h5>
+      </li>
+      <li class="new_songItem">
+        <div class="new_s_play">
+          <img src="images/your-playlists.webp" alt="new">
+          <i class="bi playlistPlay bi-play-circle-fill"></i>
+        </div>
+        <h5>Your Playlists
+        </h5>
+      </li>
+
+     
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="master_paly" >
+  <div class="bar ">
+    <input type="range" id="seek" min="0" value="0" max="100" >
+    <div class="bar2" id="bar2"></div>
+    <div class="dot" id="dot"></div>
+  </div>
+  
+  <div class="row container-fluid">
+    <div class="col-4 row">
+      <div class="col-3 img-container">
+        <img src="song_cover_img/1.jpg" alt="alan" id="poster_master_paly" >
+      </div>
+      <div class="col-9">
+        <h5 id="title">On My Way <br>
+          <div class="subtitle">Alan Walker</div></h5>
+      </div>
+      
+      
+    </div>
+    <div class="col-4  center">
+      <div class="icon">
+        <i class="bi bi-skip-start-fill" id="back"></i>
+        <i class="bi bi-play-fill" id="masterPlay"></i>
+        <i class="bi bi-skip-end-fill" id="next"></i>
+      </div>
+    </div>
+
+    <div class="col-4 vol-others">
+      <span id="currentStart">0:00</span>
+      <span class="slash">/</span>
+      <span id="currentEnd">0:00</span>
+      <div class="vol">
+        <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+        <input type="range"  id="vol" name="vol" min="0" value="30" max="100"> 
+        <div class="vol_bar"></div>
+        <div class="dot" id="vol_dot"></div>
+      </div>
+
+    </div>
+
+  </div>
+  
+
+  
+</div>
+
+
+
+</main>
+  
+
+<footer>
+
+  <div class="about">
+    <Div class="quote-container ">
+      <img src="images/quote.png" alt="quote" >
+    </Div>
+
+    <div class="about-text row">
+
+    <div class="P-box col-12">
+      <h2>About Wynk Music</h2>
+      <p>
+        Wynk Music is a complete package that allows you free online music streaming, set caller tunes, listen to podcasts, download MP3 music offline, and much more! Since  music is essentially the only thing that can truly understand a person, we consistently offer our audience the ideal blend of MP3 Songs by their favourite artists and of versatile genres.
+      </p>
+    </div>
+    <div class="P-box col-12 ">
+      <h2>
+        Play & Download FREE MP3 Songs in all languages
+
+      </h2>
+    <p>
+      One of the unique features of Wynk Music is that it offers users the ability to stream music in multiple regional languages, including Hindi, Punjabi, Bengali, Tamil, Telugu, and more. Also, users of the app can download MP3 songs for offline listening. This online music platform provides access to additional features such as offline listening, high-quality audio, and exclusive content.
+    </p></div>
+    <div class="P-box col-12 ">
+      <h2>
+        Wynk Music &minus; One Stop Destination for Offline & Online Music!
+      </h2>
+      <p>
+        Wynk Music offers users access to a vast library of music, including Indian and international tracks across various genres like Bollywood, Punjabi, pop, rock, and more. We have made online music streaming simple, fun, and all about you! So, what’s the wait for, discover and listen to millions of songs, playlists, podcasts & download MP3 songs on any device including mobile for free exclusively on Wynk Music. Keep Wynking!
+      </p>
+    </div>
+    
+  </div>
+
+  </div>
+   
+<div class="aboutsecond row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-md-3 ">
+  <div class="col ">
+    <h3>LATEST ALBUMS</h3>
+    <p>
+      Scarlet  |  NEW LIFE  |  Vikram Original Motion Picture Soundtrack  |  Shubh Vivah  |  Thallumaala  |  Pushpa - The Rise  |  Ninna Sanihake  |  Praktan  |  No Name  |  Bhavartha Mauli  |  Yuva Sarkar  |  Mal mahu jiban mati  |  GUTS
+    </p>
+  </div>
+  <div class="col">
+    <h3>EXPLORE MUSIC GENRES</h3>
+    <p>
+      Rock Songs  |  Patriotic songs  |  Sufi Music  |  Ghazals  |  Workout Music  |  Devotional Songs  |  Sad Songs  |  DJ Songs
+    </p>
+  </div>
+  <div class="col">
+    <h3>OLD SONGS</h3>
+    <p>
+      Old  Songs  |  Old Hindi Songs  |  Old English Songs  |  Old Punjabi Songs  |  Old Telugu Songs  |  Old Tamil Songs  |  Old Bengali Songs  |  Old Malayalam Songs  |  Old Kannada Songs
+    </p>
+  </div>
+  <div class="col">
+    <h3>TOP ARTISTS</h3>
+    <p>
+      Guru Randhawa  |  Arijit Singh  |  Atif Aslam  |  Justin Bieber  |  Gulzar  |  Armaan Malik  |  Sidhu Moose Wala  |  Alan Walker  |  Udit Narayan  |  Sonu Nigam  |  Sid Sriram  |  Akhil  |  Darshan Raval  |  Shreya Ghoshal  |  Alka Yagnik
+    </p>
+  </div>
+  <div class="col">
+    <h3>REGIONAL PLAYLISTS</h3>
+    <p>
+      New Bengali Songs  |  New Bhojpuri Songs  |  New English Songs  |  New Haryanvi Songs  |  New Hindi Songs  |  New Kannada Songs  |  New Marathi Songs  |  New Punjabi Songs  |  New Tamil Songs  |  New Telugu Songs  |  New Odia Songs  |  New Rajasthani Songs  |  New Gujarati Songs  |  New Assamese Songs
+    </p>
+  </div>
+  <div class="col">
+    <h3>LATEST SONGS</h3>
+    <p>
+      Tu Jaana Na Piya  |  Hua Main (From "ANIMAL")  |  Aakhir  |  Silli Silli  |  Aafat  |  Jaan Da (Saiyaan Ve)  |  Bolo Na (From "12th Fail")  |  Hum Aaye Hain  |  Keh Na Saka  |  Tere Dil Tak Aana Hai  |  Mera Piya Ghar Aaya 2.0  |  Masti Gad Gad (From "Pyaar Hai Toh Hai")  |  Jhoome Nain  |  Bhool Jaa  |  Samandar Sharaab
+    </p>
+  </div>
+  <div class="col">
+    <h3>TRENDING SONGS
+    </h3>
+    <p>
+      Heeriye (feat. Arijit Singh)  |  Chaleya (From "Jawan")  |  Apna Bana Le  |  Zihaal e Miskin  |  O Piya  |  Guli Mata  |  Kya Loge Tum  |  Yaar Ka Sataya Hua Hai  |  Dil Jhoom  |  Phir Aur Kya Chahiye (From "Zara Hatke Zara Bachke")  |  Jaane Jaa  |  What Jhumka ? (From "Rocky Aur Rani Kii Prem Kahaani")  |  Maula  |  Gone Girl  |  Ram Siya Ram (From "Adipurush")
+    </p>
+  </div>
+  <div class="col">
+    <h3>SONGS WITH LYRICS
+    </h3>
+    <p>
+      Coca Cola  |  Bom Diggy Diggy  |  Machayenge  |  Tera Yaar Hoon Main  |  Kar Gayi Chull (From "Kapoor & Sons (Since 1921)")  |  Morni Banke  |  Chalti Hai Kya 9 Se 12  |  Hawayein
+    </p>
+  </div>
+  <div class="col">
+    <h3>WYNK TOP HITS</h3>
+    <p>
+      Top 20 Bollywood Songs  |  Wynk Top 100 Songs  |  Top 20 English Songs  |  Trending Reels Songs
+    </p>
+  </div>
+  <div class="col">
+    <h3>DEVOTIONAL SONGS</h3>
+    <p>
+      Ganesh Ji Ki Aarti  |  Laxmi Ji Ki Aarti  |  Shri Hanuman Chalisa  |  Shiv Bhajan  |  Gurbani  |  Gurbani Shabad  |  Islamic Songs  |  Jesus Songs  |  Christian Songs
+    </p>
+  </div>
+  <div class="col">
+    <h3>JOIN WYNK FOR ARTISTS</h3>
+    <p>
+      Wynk Studio  |  Wynk Studio for Artists
+    </p>
+  </div>
+
+</div>
+
+<div class="contact ">
+  <div class="contact-text ">
+    <div class="text">
+      ABOUT US <span>|</span>
+    </div>
+    <div class="text">
+      
+PRIVACY POLICY <span>|</span>
+    </div>
+    <div class="text">
+      TERMS OF USE <span>|</span>
+    </div>
+    <div class="text">
+      
+ CONTACT US <span>|</span>
+    </div>
+    <div class="text">
+      HELLOTUNES
+    </div>
+  </div>
+
+<div class="logo ">
+ <div class="logo-box">
+  <i class="fa-brands fa-facebook-f" style="color: #ffffff"></i>
+ </div>
+ <div class="logo-box">
+  <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+ </div>
+ <div class="logo-box">
+  <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+ </div>
+ <div class="logo-box">
+  <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+ </div>
+</div>
+
+</div>
+
+
+</footer>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
